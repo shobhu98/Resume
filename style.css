@@ -1,0 +1,130 @@
+body{
+    background-color: black;
+    margin: 0;
+    color: white;
+}
+.mainbox{
+    display: block;
+    box-shadow: 0 0 12px 8px red;
+
+}
+.heading{
+    margin: 5px 0;
+    color: orangered;
+}
+.name{
+    margin: 0 2.5px;
+    height: 10vh;
+    width: calc(100% - 5px);
+
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    box-shadow: 0 0 6px 7px red;
+
+
+}
+.box1{
+    margin: 2.5px;
+    height: 60vh;
+    width: calc(100% - 5px);
+    background-color: black;
+    box-shadow: 0 0 6px 7px red;
+
+
+}
+.smallbox{
+    margin: 10px;
+    height: calc(150vh - 10px);
+    width: calc(100% - 20px);
+    /*box-shadow: 0 0 12px 8px red;*/
+}
+.box2{
+    margin: 2.5px;
+    height: 40vh;
+    width: calc(100% - 5px);
+    background-color: black;
+    box-shadow: 0 0 6px 7px red;
+
+}
+.box3{
+    margin: 2.5px;
+    height: 29vh;
+    width: calc(100% - 5px);
+    background-color: black;
+    box-shadow: 0 0 6px 7px red;
+}
+.contact{
+    margin: 10px;
+    height: calc(20vh - 10px);
+    width: calc(100% - 20px);
+    box-shadow: 0 0 6px 7px red;
+
+    /*box-shadow: 0 0 12px 8px red;*/
+}
+.inst{
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    color: coral;
+
+
+
+}
+.info{
+    text-align: center;
+}
+
+/*.name{*/
+/*    background-color: black;*/
+/*}*/
+
+.smallbox{
+    background-color: white;
+}
+.contact{
+    background-color: black;
+}
+
+@media (min-width: 800px) {
+    .mainbox{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact{
+        margin: 8px;
+        width: calc(20% - 16px);
+        height: calc(150vh - 8px);
+        order: 1;
+        display: block;
+    }
+    /*.name{*/
+    /*    width: 80%;*/
+    /*    height: 20vh;*/
+    /*}*/
+    .smallbox{
+        margin: 8px;
+        width: calc(80% - 16px);
+        height: calc(150vh - 8px);
+        order: 2;
+    }
+
+}
+@media (min-width: 1000px) {
+    .mainbox{
+        width: 900px;
+        margin: 0 auto;
+    }
+
+}
+.git{
+    margin-left: 9vh;
+
+}
+.fb{
+    margin-left: 22vh;
+}
+.ma{
+    margin-left: 30vh ;
+}
