@@ -14,7 +14,7 @@ body{
 }
 .name{
     margin: 0 2.5px;
-    height: 10vh;
+   min-height: 10px;
     width: calc(100% - 5px);
 
     text-align: center;
@@ -26,7 +26,8 @@ body{
 }
 .box1{
     margin: 2.5px;
-    height: 50vh;
+    /*height: 50vh;*/
+    min-height: 50px;
     width: calc(100% - 5px);
     background-color: black;
     box-shadow: 0 0 6px 7px red;
@@ -35,13 +36,14 @@ body{
 }
 .smallbox{
     margin: 10px;
-    height: calc(140vh - 10px);
+    /*height: calc(140vh - 10px);*/
+    min-height: calc(480px - 10px);
     width: calc(100% - 20px);
     /*box-shadow: 0 0 12px 8px red;*/
 }
 .box2{
     margin: 2.5px;
-    height: 35vh;
+    height: 220px;
     width: calc(100% - 5px);
     background-color: black;
     box-shadow: 0 0 6px 7px red;
@@ -49,7 +51,7 @@ body{
 }
 .box3{
     margin: 2.5px;
-    height: 35vh;
+    height: 200px;
     width: calc(100% - 5px);
     background-color: black;
     box-shadow: 0 0 6px 7px red;
@@ -96,7 +98,7 @@ body{
     .contact{
         margin: 8px;
         width: calc(20% - 16px);
-        height: calc(140vh);
+        height: calc(868px);
         order: 1;
 
     }
@@ -112,7 +114,7 @@ body{
     .smallbox{
         margin: 8px;
         width: calc(80% - 16px);
-        height: calc(135vh - 8px);
+        height: calc(470px - 8px);
         order: 2;
     }
 
