@@ -35,13 +35,13 @@ body{
 }
 .smallbox{
     margin: 10px;
-    height: calc(135vh - 10px);
+    height: calc(140vh - 10px);
     width: calc(100% - 20px);
     /*box-shadow: 0 0 12px 8px red;*/
 }
 .box2{
     margin: 2.5px;
-    height: 30vh;
+    height: 35vh;
     width: calc(100% - 5px);
     background-color: black;
     box-shadow: 0 0 6px 7px red;
@@ -96,7 +96,7 @@ body{
     .contact{
         margin: 8px;
         width: calc(20% - 16px);
-        height: calc(135vh);
+        height: calc(140vh);
         order: 1;
 
     }
